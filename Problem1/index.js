@@ -24,7 +24,7 @@ const inputArray = [6, 13, 22, 18, 0, 3, 45, 57, 5, 12];
 const sortedArray = sortArray(inputArray);
 
 if (sortedArray.length > 2) {
-	const secondLargestVal = sortedArray[sortedArray.length - 1];
+	const secondLargestVal = sortedArray[sortedArray.length - 2];
 	console.log(`Print the second largest integer value`, {
 		secondLargestVal
 	});
